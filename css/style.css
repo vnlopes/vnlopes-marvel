@@ -446,6 +446,10 @@ svg {
 
 @media (max-width: 900px) {
 
+  .img-top{
+    display: flex;
+  }
+  
   .list {
     display: flex;
   }
