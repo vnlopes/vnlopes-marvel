@@ -23,6 +23,7 @@ body {
   top: 0;
   position: absolute;
   display: none;
+  width: 100vw;
 }
 
 .icons {
@@ -433,11 +434,6 @@ svg {
     width: 100vw;
   }
 
-  .img-top{
-    width: 1000px;
-    justify-content: center;
-  }
-
   .pics img{
     height: 200px;
   }
@@ -449,11 +445,6 @@ svg {
 }
 
 @media (max-width: 900px) {
-
-  .img-top{
-    display: flex;
-    width: 900px;
-  }
 
   .list {
     display: flex;
@@ -503,10 +494,6 @@ svg {
 }
 
 @media (max-width: 500px) {
-
-  .img-top{
-    width: 500px;
-  }
   .name-title {
     font-size: 2rem;
   }
