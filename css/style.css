@@ -291,7 +291,6 @@ svg {
 
 .main {
   width: 80%;
-  border: 1px solid red;
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
