@@ -415,6 +415,11 @@ svg {
     width: 80%;
   }
 
+  .text{
+    font-size: 1rem;
+    width: 80%;
+  }
+
 }
 
 .center-main{
