@@ -7,17 +7,17 @@
 
 body {
   overflow-x: hidden;
-  position: relative;
   justify-content: center;
   display: flex;
   background-color: #0f0f0f;
 }
 
 .bg-img{
-  width: 1000px;
+  width: 115%;
 }
 
 .img-top{
+  align-items: center;
   justify-content: center;
   z-index: -1;
   top: 0;
@@ -91,6 +91,7 @@ main {
   display: flex;
   align-items: center;
   margin-bottom: 150px;
+  justify-content: center;
 }
 
 .name-title {
