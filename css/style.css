@@ -13,7 +13,7 @@ body {
 }
 
 .bg-img{
-  width: 115%;
+  width: 110%;
 }
 
 .img-top{
@@ -444,6 +444,10 @@ svg {
     align-items: center;
     width: 90%;
   }
+}
+
+.filter-video{
+  bottom: -55px;
 }
 
 @media (max-width: 500px) {
