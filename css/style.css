@@ -76,7 +76,6 @@ main {
   position: relative;
   width: 1100px;
   flex-direction: column;
-  margin-top: 100px;
   display: flex;
   align-items: center;
   margin-bottom: 150px;
@@ -87,6 +86,7 @@ main {
   font-family: "Space Grotesk", sans-serif;
   font-weight: bold;
   color: white;
+  margin-top: 100px;
 }
 
 .home {
@@ -131,7 +131,7 @@ main {
     rgba(15, 15, 15, 1) 6%,
     rgba(0, 0, 0, 0) 100%
   );
-  top: -150px;
+  bottom: 0;
   height: 1000px;
   width: 1920px;
   position: absolute;
@@ -149,6 +149,7 @@ video{
   z-index: -2;
   top: 0;
   width: 1920px;
+  height: 800px;
 }
 
 .pics img {
@@ -264,6 +265,7 @@ a {
   align-items: center;
   border-radius: 30px;
   background-color: #1b1b1b;
+  color: #5200ff;
 
 }
 
@@ -419,7 +421,7 @@ a {
 
 
   .video{
-    width: 100%;
+    width: 100vw;
   }
 
   .pics img{
