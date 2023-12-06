@@ -397,6 +397,52 @@ svg {
 
 /* end navbar style */
 
+@media (max-width: 1200px){
+
+  .filter-video{
+    width: 100%;
+  }
+
+  .img-top{
+    width: 1000px;
+  }
+
+  .pics img{
+    height: 200px;
+  }
+
+  .pics{
+    width: 80%;
+  }
+
+}
+
+.center-main{
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1000px){
+
+  .filter-video{
+    width: 100vw;
+  }
+
+  .img-top{
+    width: 1000px;
+    justify-content: center;
+  }
+
+  .pics img{
+    height: 200px;
+  }
+
+  .pics{
+    width: 80%;
+  }
+
+}
+
 @media (max-width: 900px) {
 
   .img-top{
