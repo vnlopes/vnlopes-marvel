@@ -452,6 +452,7 @@ svg {
 
   .img-top{
     display: flex;
+    width: 900px;
   }
 
   .list {
@@ -502,6 +503,10 @@ svg {
 }
 
 @media (max-width: 500px) {
+
+  .img-top{
+    width: 500px;
+  }
   .name-title {
     font-size: 2rem;
   }
