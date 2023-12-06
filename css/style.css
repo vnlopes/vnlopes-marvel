@@ -214,7 +214,7 @@ video {
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.43);
 }
 
-a {
+.lang div{
   transition: 0.3s;
 }
 
@@ -245,7 +245,7 @@ a {
   align-items: center;
 }
 
-.lang a:hover {
+.lang div:hover {
   transform: translateY(-10px);
 }
 
@@ -265,7 +265,7 @@ a {
   align-items: center;
   border-radius: 30px;
   background-color: #1b1b1b;
-  color: #5200ff;
+  color: #ffffff;
 }
 
 .navbar {
@@ -290,8 +290,9 @@ svg {
 }
 
 .main {
+  width: 80%;
+  border: 1px solid red;
   margin-top: 15px;
-  width: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
