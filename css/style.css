@@ -251,7 +251,6 @@ video {
 /* skills */
 
 .skills span {
-  margin-top: 50px;
   font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
   color: white;
@@ -268,6 +267,7 @@ video {
 }
 
 .lang {
+  margin-top: 50px;
   display: flex;
   gap: 15px;
 }
