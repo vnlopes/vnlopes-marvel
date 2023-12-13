@@ -96,6 +96,7 @@ main {
     height: 500px;
     object-fit: cover;
     display: none;
+    max-width: 100vw;
   }
 
 .fade {
