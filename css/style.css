@@ -93,7 +93,7 @@ main {
     z-index: -1;
     top: 0;
     position: absolute;
-    width: 100vw;
+    width: 50vw;
     height: 500px;
     object-fit: cover;
     display: none;
